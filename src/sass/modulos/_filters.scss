@@ -1,0 +1,98 @@
+﻿.filters__wrapper{
+	width: 100%;
+	padding: 10px 1.5%; 	
+	background-color: $white4;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+	overflow: hidden;
+
+	@media (min-width: $screen-sm-min) {
+		float: left;
+		width: 20%;
+		height: calc(100% - 182px);
+		padding: 15px 0; 	
+	}
+
+	@media (min-width: $screen-md-min) {
+		width: 18%;
+		height: calc(100% - 90px); 	
+	}
+}
+
+.filters__title{
+	float: left;
+	width: 10%;
+	font-weight:400;
+	font-size: 16px;
+	color: $brownishGrey;
+	margin: 0 0 0 0;
+
+	@media (min-width: $screen-sm-min) {
+		float: none;
+		width: inherit;
+		margin: 0 0 5px 6.5%; 	
+	}
+
+	@media (min-width: $screen-md-min) {
+		margin: 0 0 5px 6.5%; 	
+	}
+}
+
+.filters{
+	float: left;
+	width: 90%;
+
+	@media (min-width: $screen-sm-min) {
+		float: none;
+		width: 100%;
+	}
+}
+
+.fiters__block{
+	float: left;
+	width: 33.3%;
+	padding: 0 1.5%; 
+	border-right: 1px solid $black10; 
+
+	&:last-child{
+		border-right: none; 
+	}
+
+	@media (min-width: $screen-sm-min) {
+		float: none;
+		width: 100%;
+		height:88px;
+		padding: 15px 6.5%; 
+		border-right: none; 
+		border-bottom: 1px solid $black10;	
+	}
+
+	@media (min-width: $screen-md-min) {
+		float: none;
+		width: 100%;
+		height:88px;
+		padding: 15px 6.5%; 
+		border-right: none; 
+		border-bottom: 1px solid $black10;	
+	}
+}
+
+.filters__element{
+	width: 100%;
+
+	@media (min-width: $screen-sm-min) {
+		float: left;
+		width: 41.3%;
+
+		&:last-child{
+			float: right;
+		}
+	}
+}
+
+.filters__label{
+	font-weight:400;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: $warmGrey;
+}

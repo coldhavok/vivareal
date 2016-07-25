@@ -1,0 +1,15 @@
+﻿{
+	"sectors": [{
+		"name": "Home",
+		"id": "home",
+		"template": "/static/templates/home.html"
+	}, {
+		"name": "Quem somos",
+		"id": "quemsomos",
+		"template": "/static/templates/quemsomos.html"
+	}, {
+		"name": "Contato",
+		"id": "contato",
+		"template": "/static/templates/contato.html"
+	}]
+}

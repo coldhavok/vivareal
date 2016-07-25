@@ -1,0 +1,88 @@
+﻿.site-nav {
+  float: none;
+  width: 100%;
+  height: 92px;
+  padding: 10px;
+  background-color: $darkBlue;
+
+  @media (min-width: $screen-md-min) {
+    float: left;
+    width:8.3%;
+    height: calc(100% - 60px);
+    padding:15px 0 0 0;
+  }
+}
+
+.site-nav__menu {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+
+  @media (min-width: $screen-md-min) {
+    width: 84%;
+    max-width: 90px;
+  }
+}
+
+.site-nav__menuitem{    
+  float: left;
+  width: 90px;
+  height: 72px;
+  margin: 0 10px 0 0;
+
+  @media (min-width: $screen-md-min) {
+    float: none;
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+.site-nav__link{
+  display: block;
+  height: 100%;
+  padding: 10px 0;
+  font-weight:700; 
+  font-size:11px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+
+  &:hover{
+    background-color: $lightBlue;
+  }
+} 
+
+.site-nav__link--active{
+  background-color: $lightBlue;
+} 
+
+.site-nav__ico{
+  @extend .icon-setup;
+  display: block;
+  width:100%;  
+  color: #fff;
+
+  &:before {
+    content: "";
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.site-nav__ico--list{
+  &:before {
+    content: "\e900";
+  }
+}
+
+.site-nav__ico--new{
+  &:before {
+    content: "\e905";
+  }
+}

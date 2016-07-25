@@ -1,0 +1,17 @@
+﻿main{
+	width: 100%;
+
+	@media (min-width: $screen-sm-min) {
+		padding: 15px 1.5%;
+	}
+
+	@media (min-width: $screen-md-min) {
+		float: left;
+		width: 91.7%;
+		padding: 15px 1.2%;
+	}
+
+	@media (min-width: $screen-lg-min) {
+
+	}
+}
